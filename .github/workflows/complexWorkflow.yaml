@@ -10,7 +10,7 @@ jobs:
         steps:
         - uses: actions/checkout/@v3
         - name: Print Date
-          run: echo 06/01/2023
+          run: date
 
     job2:
         name: Second Job
@@ -18,14 +18,14 @@ jobs:
         steps:
         - uses: actions/checkout/@v3
         - name: Print Date
-          run: echo 06/01/2023
+          run: date
     job3:
         name: Third Job
         runs-on: macos-latest
         steps:
         - uses: actions/checkout/@v3
         - name: Print Date
-          run: echo 06/01/2023
+          run: date
     job4:
         name: Fourth Job
         runs-on: ubuntu-latest
@@ -33,4 +33,4 @@ jobs:
         steps:
         - uses: actions/checkout/@v3
         - name: Print Date
-          run: echo 06/01/2023
+          run: date
